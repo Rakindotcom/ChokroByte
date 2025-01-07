@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F6EE;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #152238;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    background-color: #1D2D44;
+    color: wheat;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+main h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: maroon;
+    font-size: 2.5em;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img.img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 6px solid #012666;
+}
+
+.member {
+    margin: 20px;
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px #152238cb;
+}
+
+.member:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0px 8px 12px rgba(2, 23, 94, 0.856);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px auto 5px;
+    background-color: #152238;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 70%;
+}
+
+.socials:hover {
+    background-color: maroon;
+}
+
+.socialLink img {
+    width: 30px;
+    display: none;
+}
+
+.socialLink img:hover {
+    transform: scale(1.25);
+    transition: all 0.2s;
+
+}
+
+.socialLink {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
