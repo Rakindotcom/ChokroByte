@@ -58,7 +58,7 @@ main {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px;
     margin-bottom: 20px;
 }
@@ -229,4 +229,70 @@ main {
     cursor: url(/photos/pointer2.svg), pointer;
 }
 
+footer{
+    background-color: #152238;
+    color: white;
+    padding: 20px 20px;
+}
+.fcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fcontainer img {
+    height: 120px;
+    filter: invert(1);
+    cursor: url(/photos/pointer2.svg), pointer;
+}
+
+.fcontent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fcontent p{
+    text-align: justify;
+    text-align-last: center;
+    font-weight: 400;
+    width: 90%;
+    font-size: 0.8rem;
+}
+#fp{
+    color: wheat;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.flink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flink h2{
+    margin-bottom: 10px;
+    color: #FFD700;
+    text-align: center;
+}
+
+.flink a{
+    color: rgb(196, 187, 187);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.flink a:hover{
+    color: white;
+}
+.flink ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
