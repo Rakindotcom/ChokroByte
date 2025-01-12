@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #152238;
+    border-radius: 3px;
+    border: 3px solid #e0e0e0;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #152238 #e0e0e0;
+}
 
 * {
     margin: 0;
@@ -110,7 +130,8 @@ main {
     }
 }
 
-#heading1, #heading2 {
+#heading1,
+#heading2 {
     text-align: center;
     color: #152238;
     font-size: 2.4rem;
@@ -118,7 +139,8 @@ main {
     text-decoration: underline;
 }
 
-#p1, #p2 {
+#p1,
+#p2 {
     text-align: center;
     color: maroon;
     font-size: 1.2rem;
@@ -203,6 +225,7 @@ main {
     align-items: center;
     width: 25%;
 }
+
 .image2 {
     display: flex;
     justify-content: end;
@@ -210,13 +233,14 @@ main {
     width: 25%;
 }
 
-.image1 img, .image2 img{
+.image1 img,
+.image2 img {
     width: 90%;
     border-radius: 15px;
     cursor: url(/photos/pointer2.svg), pointer;
 }
 
-.tool{
+.tool {
     width: 80%;
     margin: auto;
     text-align: justify;
@@ -229,11 +253,12 @@ main {
     cursor: url(/photos/pointer2.svg), pointer;
 }
 
-footer{
+footer {
     background-color: #152238;
     color: white;
     padding: 20px 20px;
 }
+
 .fcontainer {
     display: flex;
     justify-content: space-around;
@@ -245,54 +270,56 @@ footer{
     cursor: url(/photos/pointer2.svg), pointer;
 }
 
-.fcontent{
+.fcontent {
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.fcontent p{
+.fcontent p {
     text-align: justify;
     text-align-last: center;
     font-weight: 400;
     width: 90%;
     font-size: 0.8rem;
 }
-#fp{
+
+#fp {
     color: wheat;
     font-weight: 600;
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
 
-.flink{
+.flink {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.flink h2{
+
+.flink h2 {
     margin-bottom: 10px;
     color: #FFD700;
     text-align: center;
 }
 
-.flink a{
+.flink a {
     color: rgb(196, 187, 187);
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
 }
 
-.flink a:hover{
+.flink a:hover {
     color: white;
 }
-.flink ul{
+
+.flink ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
-
